@@ -3,7 +3,7 @@ import useTodo, { Todos } from "./useTodo";
 import React from "react";
 
 function Todo() {
-  const [todo, setTodo] = React.useState("");
+  const [todo, setTodo] = React.useState<string>("");
   const { loading, todos, setTodos } = useTodo();
 
   const submitTodoForm = (event: React.FormEvent) => {
