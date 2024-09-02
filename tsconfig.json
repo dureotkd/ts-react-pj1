@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 컴파일 후 ES6로 변환
+    "module": "ESNext",
+    "jsx": "react-jsx", // React의 JSX 구문을 지원
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"], // TypeScript가 처리할 파일들
+  "exclude": ["node_modules"]
+}
